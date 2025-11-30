@@ -4,7 +4,7 @@
 
   <node name="cartographer_node" pkg="cartographer_ros"
       type="cartographer_node" args="
-          -configuration_directory $(find slamkit2d_bring)/params
+          -configuration_directory $(find slamkit2d_bringup)/params
           -configuration_basename 2d_imu.lua"
       output="screen">
     <remap from="scan" to="$(arg scan_topic)" />
