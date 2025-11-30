@@ -1,0 +1,13 @@
+<launch>
+  <!-- <arg name="scan_topic"      value="scan"/>
+  <arg name="imu_topic"      value="imu"/> -->
+
+  <include file="$(find slamkit2d_description)/launch/slamkit2d_description.launch"/> 
+  <include file="$(find fdilink_ahrs)/launch/n100_driver.launch"/> 
+  <include file="$(find rplidar_ros)/launch/rplidar_driver.launch"/> 
+
+  <include file="$(find slamkit2d_bringup)/launch/carto_mapping.launch"/> 
+  
+  <node name="rviz" pkg="rviz" type="rviz" required="true" args="-d $(find slamkit2d_bringup)/rviz/mapping.rviz" />
+
+</launch>
