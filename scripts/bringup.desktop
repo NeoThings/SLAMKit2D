@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=bringup
 Comment=bringup slamkit2d and mapping
-Exec=roslaunch slamkit2d_bringup bringup.launch #<程序路径>执行文件路径
+Exec=roslaunch slamkit2d_bringup bringup.launch
 Terminal=true
 Type=Application
 Icon=${HOME}/slamkit2d_ws/src/SLAMKit2D/icons/radar.png
