@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=bringup
-Comment=bringup slamkit2d and mapping
-Exec=roslaunch slamkit2d_bringup bringup.launch
-Terminal=true
-Type=Application
-Icon=${HOME}/slamkit2d_ws/src/SLAMKit2D/icons/radar.png
-Categories=Development;

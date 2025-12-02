@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=bringup
+Comment=start mapping
+Exec=bash -c "source /home/neo/demobot_ws/devel/setup.bash && roslaunch demobot_mapping sim_mapping.launch"
+Terminal=true
+Type=Application
+Icon=/home/neo/.local/share/icons/radar.png
+Categories=Development;
