@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=record topic
 Comment=record topic
-Exec=bash -c "source /opt/ros/noetic/setup.bash && home/neo/slamkit2d_ws/src/SLAMKit2D/scripts/record_topic.sh; exec bash"
+Exec=bash -c "source /opt/ros/noetic/setup.bash && /home/neo/slamkit2d_ws/src/SLAMKit2D/scripts/record_topic.sh; exec bash"
 Terminal=true
 Type=Application
 Icon=/home/neo/.local/share/icons/record.png
