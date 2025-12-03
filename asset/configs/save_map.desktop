@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=save map
+Comment=save map
+Exec=bash -c "/home/neo/slamkit2d_ws/src/SLAMKit2D/scripts/save_map.sh; sleep 3"
+Terminal=true
+Type=Application
+Icon=/home/neo/.local/share/icons/save_map.png
+Categories=Development;

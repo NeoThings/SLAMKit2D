@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=bringup
 Comment=start mapping
-Exec=bash -c "source /home/neo/demobot_ws/devel/setup.bash && roslaunch demobot_mapping sim_mapping.launch"
+Exec=bash -c "source /home/neo/slamkit2d_ws/devel_isolated/setup.bash && roslaunch slamkit2d_bringup bringup.launch; exec bash"
 Terminal=true
 Type=Application
 Icon=/home/neo/.local/share/icons/radar.png
