@@ -2,7 +2,7 @@
 
 RECORD_PID="/tmp/record_pid"
 BAG_NAME="rosbag_$(date +%Y%m%d_%H%M%S)"
-TOPICS="/imu_data /odom"
+TOPICS="/imu_data /scan"
 
 # 检查rosbag是否在运行
 recording() {
